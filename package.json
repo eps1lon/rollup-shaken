@@ -1,0 +1,19 @@
+{
+  "name": "rollup-shaken",
+  "version": "1.0.0",
+  "description": "mui bundle with rollup",
+  "main": "bundle.cjs.js",
+  "module": "bundle.esm.js",
+  "author": "Sebastian Silbermann <silbermann.sebastian@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^3.8.3",
+    "react": "^16.7.0",
+    "rollup": "^1.1.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "scripts": {
+    "start": "rollup -c"
+  }
+}
