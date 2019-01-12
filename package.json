@@ -2,8 +2,8 @@
   "name": "rollup-shaken",
   "version": "1.0.0",
   "description": "mui bundle with rollup",
-  "main": "bundle.cjs.js",
-  "module": "bundle.esm.js",
+  "main": "bundle.classnames.path.cjs.js",
+  "module": "bundle.classnames.path.esm.js",
   "author": "Sebastian Silbermann <silbermann.sebastian@gmail.com>",
   "license": "MIT",
   "dependencies": {
