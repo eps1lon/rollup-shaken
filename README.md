@@ -10,3 +10,9 @@ Using `import colors from "@material-ui/core/colors";` will correctly exclude th
 `classnames` package from the bundle. However using `import { colors } from "@material-ui/core";`
 will include it. But this is due to the fact that rollup will include all components
 from `@material-ui/core` which do require `classnames`.
+
+### classnames -> clsx
+Using the build from https://github.com/mui-org/material-ui/pull/14152
+does not provide any benefit other the the reduced size of that dependency.
+To reproduce these results you could use `yarn link @material-ui/core` but you 
+have to adjust `namedExports` in `rollup.config.js`.
